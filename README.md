@@ -1,8 +1,7 @@
 # Light mode
 
-![Capture d’écran 2022-05-25 à 21 40 43](https://user-images.githubusercontent.com/89834824/170354037-d9106105-5bd4-4167-bbda-a7272b1fe993.png)
+![Capture d’écran 2022-05-25 à 21 44 43](https://user-images.githubusercontent.com/89834824/170354764-0c2d014c-4b13-4c83-ad1c-13f1233314f7.png)
 
 
-# Dark Mode
-
-![Capture d’écran 2022-05-25 à 21 40 51](https://user-images.githubusercontent.com/89834824/170354056-4a508791-2c90-4ed6-a177-33e2b423fd70.png)
+# Dark mode
+![Capture d’écran 2022-05-25 à 21 45 41](https://user-images.githubusercontent.com/89834824/170354774-7449e335-0876-4653-9d0a-3f51500ac45d.png)
