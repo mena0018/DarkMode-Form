@@ -1,6 +1,5 @@
-@import './scss/variables';
-@import './scss/mixins';
-
+@import "./scss/variables";
+@import "./scss/mixins";
 
 *,
 ::before,
@@ -12,5 +11,37 @@
 
 body {
   font-family: $font-fam;
-  background: $blue-grey;
 }
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease-out;
+
+  &#light {
+    background: $blue-grey;
+  }
+
+  &#dark {
+    background: $blue;
+  }
+}
+
+
+
+label {
+  font-weight: 600;
+  letter-spacing: 1px;
+  
+  #light & {
+    color: $dark-blue;
+  }
+
+  #dark & {
+    color: $blue-grey;
+  }
+}
+
