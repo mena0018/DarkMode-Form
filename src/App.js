@@ -16,7 +16,12 @@ function App() {
     <ThemeContext.Provider value={{theme, toggleTheme}}>
       <div className="App" id={theme}>
         <Home />
-        <Switch value={theme === "light" ? false : true} onChange={toggleTheme} />
+
+        <Switch value={theme === "light" ? false : true}
+                onChange={toggleTheme} 
+                backgroundColor={{on:"#ececec", off: "#2b649c"}} 
+                borderColor={{on:"#2b649c", off: "#2b649c"}} 
+        />
         <label htmlFor="">{theme === "light" ? "DarMode"  : "LightMode"}</label>
       </div>
     </ThemeContext.Provider>
