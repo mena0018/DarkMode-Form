@@ -1,0 +1,17 @@
+@import './scss/variables';
+@import './scss/mixins';
+
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-fam;
+  height: 100vh;
+  background: $blue-grey;
+}
